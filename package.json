@@ -1,10 +1,10 @@
 {
-  "name": "@awboost/cfndeploy",
-  "version": "0.2.0",
+  "name": "@diquattro/cfndeploy",
+  "version": "0.3.0",
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "https://github.com/awboost/cfndeploy.git"
+    "url": "https://github.com/mtkconnect/cfndeploy.git"
   },
   "homepage": "https://github.com/awboost/cfndeploy#readme",
   "author": {
@@ -20,6 +20,10 @@
     ".": {
       "types": "./lib/index.d.ts",
       "default": "./lib/index.js"
+    },
+    "./deployer": {
+      "types": "./lib/deployer.d.ts",
+      "default": "./lib/deployer.js"
     }
   },
   "files": [
